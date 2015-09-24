@@ -6,7 +6,7 @@ public class PopUpRunner
 	{
 		//Something mySomething = Something();
 		//mySomething.start();
-		PopUpController myPopUpCntroller =new PopUpController();
+		PopUpController myPopUpController =new PopUpController();
 		myPopUpController.start();
 	}
 
