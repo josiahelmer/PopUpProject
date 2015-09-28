@@ -17,6 +17,6 @@ public class Thing
 	{
 		this.age = age;
 		this.name = name;
-		this.weight =weight;
+		this.weight = weight;
 	}
 }
