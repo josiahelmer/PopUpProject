@@ -15,6 +15,10 @@ public class PopUpController
 	
 	public void start()
 	{
+		/**
+		 * This provides the text prompt to type your name
+		 *
+		 */
 		String name = myPopUps.getAnswer("Type in your name");
 		
 		myPopUps.displayResponse("Your name is " + name);
@@ -85,7 +89,7 @@ public class PopUpController
 		}
 		catch(NumberFormatException error)
 		{
-			myPopUps.displayResponse ("You did not type in a vaid double");
+			myPopUps.displayResponse ("You did not type in a valid double");
 		}
 		return isDouble;
 	}}

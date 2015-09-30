@@ -24,7 +24,7 @@ public class PopUpDisplay
 	}
 /**
  * It will show the entered text in a popup
- * @param input
+ * @param input You can only press OK
  */
 public void displayResponse (String input)
 	{
